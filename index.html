@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Embed showcase</title>
+<script>window.FrameworkEmbedConfig = { hosts: ["https://framework-cloud-test.pequod.sh"] };</script>
+<link rel="stylesheet" href="https://frameworktools.github.io/framework-embed/framework-embed.css">
+<script src="https://frameworktools.github.io/framework-embed/framework-embed.iife.js" defer></script>
+<style>
+  body { font: 17px/1.6 Georgia, serif; color: #222; background: #fff; margin: 0; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 80px; }
+  h1 { font-size: 28px; } h2 { margin-top: 56px; border-bottom: 1px solid #ddd; }
+  h3 { font-size: 16px; margin: 40px 0 8px; font-family: system-ui, sans-serif; }
+  .kind { font-weight: 400; color: #777; font-size: 13px; }
+  p.note { color: #555; font-size: 15px; }
+</style>
+</head>
+<body><main>
+<h1>Embed showcase</h1>
+<p class="note">QA page. Every artifact kind from R, Python, and Stata, embedded with the HTML from the Share dialog. The artifacts live on a homelab test server, so they load only from the house network or tailnet.</p>
+<section><h2>R</h2>
+<h3>Linear model <span class="kind">model</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/mwg8kq1llskjwa0yqq2iqgai">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/penguin-mass-lm">Penguin body mass by flipper length and species</a>
+</framework-artifact>
+<h3>Logistic model <span class="kind">model</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/cckwvtn6r6zdcvc0uxvkq43c">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/mtcars-transmission-logit">Manual transmission by weight and horsepower</a>
+</framework-artifact>
+<h3>Mixed model <span class="kind">model</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/yqxduertc9b87sjqo0rpbuor">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/sleepstudy-reaction-lmer">Reaction time over days of sleep deprivation</a>
+</framework-artifact>
+<h3>Welch t-test <span class="kind">test</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/b59sr6qghknunegjb80hzwrs">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/penguin-mass-by-sex-welch">Penguin body mass by sex</a>
+</framework-artifact>
+<h3>Small table <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/xhsmdiekeqewviocurzvy21x">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/penguin-species-means">Penguin measurements by species</a>
+</framework-artifact>
+<h3>Wide table <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/8sr1kp2pufqo8kijhjy2igcv">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/mtcars-all-columns">Motor Trend cars, all twelve columns</a>
+</framework-artifact>
+<h3>Long table <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/j7tt5bpytgf3nmkhsqxsmu66">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/sleepstudy-long">Sleep study reaction times by day</a>
+</framework-artifact>
+<h3>ggplot figure <span class="kind">image</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/mnjqjpnm4gdqkzvnrymo14om">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/penguin-bill-dimensions">Penguin bill length and depth</a>
+</framework-artifact>
+<h3>Vega-Lite chart <span class="kind">vega-lite</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/dyba0ssrqeadslxakkzkktpp">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/mtcars-mpg-by-cylinders">Fuel economy by cylinder count</a>
+</framework-artifact>
+<h3>Data set <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/z7nhujxrjilxhg83dtsoh4xm">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/penguins-data">Palmer penguins measurements</a>
+</framework-artifact>
+<h3>Quarto report <span class="kind">page</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/eg9vfuzpdncwmoie6enk62os">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/r-showcase/penguin-report">Penguin body mass report</a>
+</framework-artifact>
+</section><section><h2>Python</h2>
+<h3>OLS model <span class="kind">model</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/iq7qnatcortyjo7ni5tqkzcb">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/penguin-mass-ols">Penguin body mass, OLS</a>
+</framework-artifact>
+<h3>Logit model <span class="kind">model</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/fae2juvvtsqtp7d8xfdhksi1">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/penguin-sex-logit">Penguin sex, logistic regression</a>
+</framework-artifact>
+<h3>XGBoost model <span class="kind">model</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/nkotrulklkv7hnw1oohstegm">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/penguin-species-xgboost">Penguin species, gradient boosting</a>
+</framework-artifact>
+<h3>Welch t-test <span class="kind">test</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/nma5iereucs4ckrzlqqp0bzo">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/flipper-welch-t-test">Flipper length, Adelie vs Chinstrap</a>
+</framework-artifact>
+<h3>Small table <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/mmiyot64xtqhfc5ih3buzivw">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/species-summary">Penguin species summary</a>
+</framework-artifact>
+<h3>Wide table <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/i2jhhjvzdg28rntpycnnbm8s">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/measurements-by-group-wide">Penguin measurements by group</a>
+</framework-artifact>
+<h3>Long table <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/maxx8c1teeekotbt2d1e2ely">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/penguin-measurements-long">Penguin measurements, 150 rows</a>
+</framework-artifact>
+<h3>matplotlib figure (SVG) <span class="kind">image</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/ebilhgfled98onsnkdemf1ei">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/mass-vs-flipper-figure">Body mass and flipper length, figure</a>
+</framework-artifact>
+<h3>matplotlib PNG <span class="kind">image</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/w4elezm812btqvk9qtiitfmy">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/mass-vs-flipper-png">Body mass and flipper length, PNG</a>
+</framework-artifact>
+<h3>Altair chart <span class="kind">vega-lite</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/n1bngm8jlybxzgwwah8yzzzl">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/mass-vs-flipper-chart">Body mass and flipper length, live chart</a>
+</framework-artifact>
+<h3>Faceted Altair chart <span class="kind">vega-lite</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/xs5aqo9iaayciel8c0ajjonw">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/bill-shape-by-island-chart">Bill shape by island, faceted chart</a>
+</framework-artifact>
+<h3>Data set <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/wsggdslv6vdt72nu1e74bfsd">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/penguins-data">Palmer penguins data</a>
+</framework-artifact>
+<h3>Jupyter notebook <span class="kind">page</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/enaekbp4bus4jbxer0q4i6rg">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/py-showcase/penguin-analysis-notebook">Penguin measurements notebook</a>
+</framework-artifact>
+</section><section><h2>Stata</h2>
+<h3>regress <span class="kind">model</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/wh0wlsiwhl6jjstqzcynsihm">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/stata-showcase/auto-price-regress">Car price regression</a>
+</framework-artifact>
+<h3>logit <span class="kind">model</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/pcwz5cimtbvbb59r8fiebtsi">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/stata-showcase/auto-origin-logit">Foreign origin logit</a>
+</framework-artifact>
+<h3>stcox <span class="kind">model</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/sxhbxvezcyxigjdf4y95ljif">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/stata-showcase/cancer-survival-cox">Drug trial survival model</a>
+</framework-artifact>
+<h3>Summary table <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/43fnbqvm3si5uic9cnieqbvp">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/stata-showcase/wage-summary">Wages and hours by race</a>
+</framework-artifact>
+<h3>Wide table <span class="kind">table</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/w6lf95nzmmbgvbbg0em29gml">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/stata-showcase/auto-wide-means">Car characteristics by repair record</a>
+</framework-artifact>
+<h3>Stata graph <span class="kind">image</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/bs17xqqayuhnylb3etxo5uzq">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/stata-showcase/price-weight-scatter">Price and weight of cars</a>
+</framework-artifact>
+<h3>Data set (.dta) <span class="kind">page</span></h3>
+<framework-artifact src="https://framework-cloud-test.pequod.sh/api/embed/v1/artifacts/llgrm1ptyikr86nc9dwiwlpt">
+  <a href="https://framework-cloud-test.pequod.sh/@embed-qa/stata-showcase/auto-cars-data">1978 car prices data</a>
+</framework-artifact>
+</section>
+</main></body></html>
